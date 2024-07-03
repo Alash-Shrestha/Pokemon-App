@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  react:
+    build: .
+    container_name: pokemon-react-app
+    ports:
+      - "3001:3000"
+    command: 'npm start'
